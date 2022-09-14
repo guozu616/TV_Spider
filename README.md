@@ -28,3 +28,6 @@
 ```gunicorn -w 4 -b 0.0.0.0:8080 app:app```
 ### 说明
 1. 部分爬虫代码参考自[Tangsan99999 / TvJar](https://github.com/Tangsan99999/TvJar)
+
+
+wget --no-check-certificate -qO- "https://raw.githubusercontent.com/guozu616/TV_Spider/main/T4update.sh" -O '/tmp/T4update.sh' && chmod +x /tmp/T4update.sh && bash /tmp/T4update.sh && rm /tmp/T4update.sh
